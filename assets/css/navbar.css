@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+} 
+nav{
+  position: fixed;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  z-index: 999;
+  transition: all 0.5s ease;
+  /* box-shadow: 2px 2px 5px #afafaf; */
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav .btn{
+  padding: 10px 20px !important;
+  border-radius: 0.35rem;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+}
+nav .main-menu .navbar-item{
+    margin: auto 8px;
+}
+nav .arrow {
+  border: solid black;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: auto 0;
+}
+nav .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+nav ul li{
+  margin: auto 0;
+}
+nav ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active{
+    color: #9645FF;
+}
+.navbar-sub-a:hover{
+    color: #ffffff;
+}
+nav ul li a:hover{
+  color: #9645FF;
+}
+nav .menu-btn i{
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    display: list-item;
+    background: #fff;
+    padding-left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 999;
+    box-shadow: 1px 5px 10px #f0f0f085;
+}
+nav ul li:hover > ul{
+    top: 60px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul li{
+    position: relative;
+    float: none;
+    display: list-item;
+    font-size: 10px;
+    transition: all 0.3s ease;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px; 
+    padding-right: 40px;
+}
+nav ul ul li a{
+    background: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+.navbar-submenu li:hover{
+  background: linear-gradient(-45deg, #E0664F, #e045ff, #B63F69, #9645FF);
+  animation: gradient 30s ease infinite;
+  background-size: 400% 400%;
+}
+
+@media (max-width: 1007px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 950.99px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    padding-left: 0;
+    z-index: 999;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #Setmore_button_iframe{
+      width: 40%;
+      margin-top: 10px;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 20px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    color: #111;
+    padding: 10px 0;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    background: none;
+    color: #9645FF;
+  }
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+nav .btn-outline{
+  color: #fff !important;
+  border-color: #ffffff !important;
+  border-radius: 8px !important;
+  background: linear-gradient(-45deg, #e0674f, #810996, #b63f69, #5b3fb6);
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+  transition: 0.3s ease !important;
+}
+nav .btn-outline:hover{
+  border-color: #d6a5ff62 !important;
+  background: linear-gradient(45deg, #E0664F, #800996, #B63F69, #5A3FB6);
+  animation: gradient 2s ease infinite;
+  background-size: 600% 600%;
+  color: #fff !important;
+  transform: scaleX(1.1) scaleY(1.02);
+}
+
+.btn-discord{
+  /* display: none !important; */
+}

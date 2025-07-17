@@ -1,0 +1,110 @@
+body{
+  font-family: 'Work Sans';
+  color: #fff;
+}
+
+.colorful-text{
+  background: -webkit-linear-gradient(45deg, #9645FF, #F58534);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+.purple-text{
+  color: #9645FF;
+}
+
+nav{
+  background: #141414;
+  box-shadow: 2px 2px 5px #141414;
+}
+nav ul{
+  background: #141414;
+}
+nav .menu-btn i{
+  color: #fff !important;
+}
+nav .btn{
+  color: #fff !important;
+  border-color: #fff !important;
+}
+nav .btn:hover{
+  color: #9645FF !important;
+  border-color: #9645FF !important;
+}
+nav ul li a{
+  color: #fff;
+}
+nav .arrow{
+  border-color: #fff;
+}
+nav ul ul{
+  box-shadow: 2px 2px 5px #141414;
+  background: #141414;
+}
+
+.works{
+  background-color: #141414 !important;
+}
+.works .project-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+.works h2{
+    font-weight: 900;
+    font-family: 'Work Sans';
+    padding-right: 5% !important;
+    margin-bottom: 0 !important;
+}
+.works h2:before {
+  opacity: 0.02 !important;
+  z-index: 0 !important;
+  color: #fff !important;
+  position: fixed !important;
+  top: 30% !important;
+  left: 15% !important;
+}
+
+.header-buttons .btn{
+  border: 1px solid #9645FF !important;
+  color: #9645FF !important;
+  margin: auto 0 !important;
+  padding: 10px 20px !important;
+}
+.header-buttons{
+  height: auto !important;
+  margin: auto 0 !important;
+}
+
+.custom-link a{
+  color: #fff !important;
+}
+.custom-link .lines span:nth-child(1){
+  background: #fff !important;
+}
+
+.works .head{
+  margin-top: 10% !important;
+}
+.works .project-box .content-box .inner h3{
+  margin-bottom: 1.5vh !important;
+  font-size: 2vw !important;
+}
+.works .project-box .content-box .inner h3 span{
+  font-size: 4.5vw !important;
+  padding-bottom: 10px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  color: #9645FF !important;
+}
+
+.works .project-box:hover h3 span{
+  background: -webkit-linear-gradient(45deg, #9645FF, #F58534) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  transition: all 0.5s ease !important;
+}
+.works .project-box:hover h3{
+  cursor: default !important;
+}

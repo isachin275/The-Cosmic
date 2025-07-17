@@ -1,0 +1,52 @@
+.in-header {
+    text-align: left;
+    width: 50vw;
+}
+
+.image-section h1 {
+    font-weight: 900;
+    font-size: 4vh;
+    max-width: 25vw;
+    text-align: center;
+}
+
+.content {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    width: 55vw;
+    padding-right: 0;
+    padding-left: 25px;
+}
+
+.content h4 {
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #262626 !important;
+    margin-bottom: 35px;
+}
+
+.image-section {
+    background-color: #FAF9FF;
+}
+
+.image-section h1 {
+    text-align: center;
+    width: 100%;
+    padding-top: 4rem;
+    margin: 2rem auto;
+}
+
+.header-main {
+    min-height: 80vh;
+}
+
+.blog-main-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}

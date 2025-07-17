@@ -1,0 +1,460 @@
+body{
+    transition: all .5s ease;
+    scroll-behavior: smooth;
+}
+
+.header-main{
+    padding: 2rem 0 0;
+}
+.hero-img-cont img{
+    transition: all 0.75s ease;
+}
+nav{
+    background: #141414;
+    box-shadow: 2px 2px 5px #141414;
+}
+nav ul li a{
+    color: #fff;
+}
+nav .arrow{
+    border-color: #fff;
+}
+nav ul ul{
+    box-shadow: 2px 2px 5px #141414;
+    background: #141414;
+}
+
+.header-main{
+    background: #141414;
+}
+.header-main p{
+    color: #7C7C7C;
+}
+.header-main h2{
+    font-weight: 900;
+    font-size: 8vh;
+}
+.header-main .hero-img-cont .main-img{
+    position: absolute;
+    width: 65%;
+    right: 10%;
+    bottom: 10%;
+}
+.header-main a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-main .text-cont{
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    bottom: 8%;
+}
+.header-main .text-cont img{
+    width: auto;
+}
+
+.works {
+    background: #141414;
+    height: 70vh;
+}
+.works .project-box figure{
+    width: 80%;
+    margin: 0 auto;
+}
+.works .project-box figure img{
+}
+.works .project-box .content-box .inner{
+    margin: auto 0;
+}
+.works h2{
+    line-height: 2.75rem;
+    font-weight: 500;
+}
+
+.building{
+    padding: 6rem 0;
+    transition: all .5s ease;
+}
+.building .col{
+    transition: all .5s ease;
+    padding: 15px 0;
+}
+.building .box{
+    transition: all .5s ease;
+    cursor: default;
+}
+.building .box p{
+    display: none;
+    transition: all .5s ease;
+    cursor: default;
+    opacity: 0;
+    visibility: hidden;
+}
+.building .box:hover p{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.building .box:hover h4{
+    color: #9645FF;
+}
+.box h6{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.box h8{
+    font-size: 1.25rem;
+    color: #000000;
+}
+.box h4{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.building h4 a{
+    text-decoration: none;
+}
+.building p{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+
+.testimonials{
+    min-height: 55vh !important;
+}
+
+.partners-section{
+    padding-top: 5rem;
+}
+.partners-section h6{
+    padding-bottom: 0 !important;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.partners-section h4{
+    font-size: 3rem;
+}
+
+.clients-continued{
+    padding: 3rem 2rem;
+}
+.clients-continued .row{
+    padding-bottom: 3rem;
+}
+.clients-continued h4{
+    font-size: 3rem;
+}
+.clients-continued .my-box{
+    padding-left: 3rem;
+}
+.clients-continued .box h4{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.clients-continued .right-box p{
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: default;
+}
+.clients-continued .btn{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.video {
+    width: 100%;
+    position: relative !important;
+    /* border: 1px solid black; */
+    /* box-shadow: 2px 20px 25px rgba(0, 0, 0, 0.25); */
+}
+.video video{
+    max-height: 680px;
+    background-color: #F5F5F5;
+}
+.wrapper{
+    display: table;
+    width: auto;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+.playpause {
+    background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    filter: invert(1);
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+.about{
+    padding: 4rem 6rem;
+    background: #141414;
+}
+.about .overlay-txt h2{
+    position: absolute;
+    z-index: 0;
+    font-size: 8vw;
+    transform: rotate(90deg);
+    left: -6.5%;
+    top: 10%;
+    opacity: 0.2;
+}
+.clients-continued .overlay-txt h2{
+    position: absolute;
+    z-index: 0;
+    font-size: 8vw;
+    transform: rotate(90deg);
+    left: -14.35%;
+    top: 45%;
+    opacity: 0.1;
+}
+.about h6{
+    color: #CCCCCC !important;
+}
+.about .img-fluid{
+    mix-blend-mode: normal;
+}
+.about .content-box p{
+    font-size: 1.75rem;
+    font-weight: 500;
+    max-width: 70%;
+    color: #CCCCCC;
+}
+.about-continued .left-box img{
+    width: 33%;
+    margin: 1rem 0;
+}
+.about-continued .left-box h6{
+    color: #565656;
+    font-size: 1.5rem;
+}
+.about-continued .left-box h8{
+    color: #565656;
+    font-size: 1rem;
+}
+.about-continued .left-box p{
+    color: #CCCCCC;
+    font-size: 1.15rem;
+    margin-top: 1rem;
+}
+.team{
+    padding: 2rem 0;
+}
+.team h6{
+    font-size: 1.5rem;
+}
+.team .head p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.team-photos img{
+    margin: 1rem 2rem;
+    max-width: 500px;
+    height: auto;
+}
+
+
+@media (max-width: 1600px){
+    .header-main .hero-img-cont .main-img {
+        position: absolute;
+        width: 65%;
+        right: 10%;
+        bottom: 15%;
+    }
+    .header-main .text-cont {
+        position: absolute;
+        z-index: 1;
+        left: 15%;
+        bottom: 8%;
+    }
+    .header-main .text-cont h2{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1300px){
+    .header-main .hero-img-cont .main-img {
+        position: absolute;
+        width: 65%;
+        right: 10%;
+        bottom: 20%;
+    }
+    .header-main .text-cont {
+        position: absolute;
+        z-index: 1;
+        left: 15%;
+        bottom: 15%;
+    }
+    .works h2{
+        font-size: 1.75rem;
+        line-height: normal;
+    }
+    .works .project-box figure {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1000px){
+    .header-main .hero-img-cont .main-img {
+        width: 75%;
+        margin-top: 10rem;
+    }
+    .header-main .text-cont{
+        position: relative !important;
+        margin: auto;
+        left: 0;
+        margin-top: 10vh;
+    }
+    nav ul{
+        background: #141414;
+    }
+    nav .menu-btn i{
+        color: #fff;
+    }
+    .header-main h2{
+        font-size: 2rem;
+    }
+    .works{
+        height: auto;
+    }
+    .works .project-box figure {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .works .project-box figure img {
+        width: 70%;
+    }
+    .works h2{
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+    .works .project-box .content-box {
+        width: 80%;
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+    }
+    .about .content-box p {
+        font-size: 1.25rem;
+        font-weight: 500;
+        max-width: 100%;
+        color: #CCCCCC;
+    }
+    .about .overlay-txt h2{
+        font-size: 15vw;
+        left: -12%;
+        top: 5%;
+    }
+    .clients-continued .overlay-txt h2{
+        font-size: 15vw;
+        left: -26%;
+        top: 55%;
+    }
+}
+
+@media (max-width: 700px){
+    .header-main{
+        min-height: auto;
+    }
+    .header-main .hero-img-cont .main-img {
+        position: relative !important;
+        width: 100%;
+        margin: 15vh auto;
+        margin-bottom: 0;
+        right: 2%;
+    }
+    .header-main .text-cont{
+        position: relative !important;
+        margin: auto;
+        left: 0;
+        margin-top: 10vh;
+    }
+    .header-main h2{
+        font-size: 3rem !important;
+    }
+    .works h2{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    .box h4{
+        font-size: 2rem;
+    }
+    .partners-section h4 {
+        font-size: 2rem;
+    }
+    .partners-section h6 {
+        padding-bottom: 0 !important;
+        padding-top: 3rem;
+        font-size: 1rem;
+    }
+    .clients-continued .my-box {
+        padding-left: 0rem;
+    }
+    .clients-continued .left-box{
+        padding-left: 0;
+    }
+    .clients-continued h4 {
+        font-size: 2rem;
+    }
+    .clients-continued .box h4 {
+        margin-bottom: 1rem;
+        font-size: 1.75rem;
+        font-weight: 900;
+    }
+    .about{
+        padding: 3rem 2rem;
+    }
+    .about .content-box p {
+        font-size: 1.25rem;
+        font-weight: 500;
+        max-width: 100%;
+        color: #CCCCCC;
+    }
+    .about .img-fluid{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .about-continued img{
+        width: 50% !important;
+    }
+    .video video{
+        max-height: 480px;
+    }
+    .about-continued .left-box{
+        width: 100%;
+        margin-right: 2rem;
+    }
+    .about-continued .left-box p {
+        color: #CCCCCC;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .team .head p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .team-photos img {
+        margin: 0.5rem 1rem;
+        max-width: 800px !important;
+        height: auto;
+    }
+    .team-photos{
+        margin-top: 3rem;
+    }
+}

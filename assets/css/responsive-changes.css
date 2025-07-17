@@ -1,0 +1,15 @@
+@media (max-width: 1300px){
+    .works h2{
+        font-size: 5vh;
+        margin-top: 1rem;
+    }
+    .works .head-cont{
+        width: 50vw;
+    }
+    .building-phenomenal h4{
+        font-size: 3.5vh !important;
+    }
+    .testimonials h4{
+        font-size: 4vh;
+    }
+}

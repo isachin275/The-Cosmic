@@ -1,0 +1,60 @@
+.about-us{
+    background-image: url('../images/landing/BG_of_Perspectivevideo.png') !important;
+}
+.about-us h4{
+    width: 100%;
+    margin: 0 auto;
+}
+.works .project-box{
+    min-width: 100%;
+}
+.works .project-box figure {
+    width: 33%;
+    margin: 0;
+}
+.works .project-box:hover .figure {
+    /* width: 33% !important; */
+}
+.works .project-box:hover figure img {
+    /* transform: scale(1) !important; */
+}
+
+
+.policy-container .tnc{
+    padding-right: 5%;
+}
+.building-phenomenal, .about-us {
+    min-height: 60vh;
+    padding: 4rem 0;
+    background: var(--color-white);
+}
+.explore-btn{
+    width: auto;
+}
+.explore-btn .row{
+    width: auto;
+}
+.explore-btn span{
+    width: auto;
+    font-size: 1.25rem;
+    height: 100%;
+    margin: auto 0;
+}
+.explore-btn img{
+    width: auto;
+}
+.building-phenomenal a{
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.building-phenomenal a:hover{
+    text-decoration: underline;
+}
+.testimonials .quotes-cont{
+    margin-top: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .bubble blockquote, .bubble cite{
+        font-size: 1rem !important;
+    }
+}
